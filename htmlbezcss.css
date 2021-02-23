@@ -1,0 +1,46 @@
+body{
+    background-image: url("./greybr.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+}
+
+a{
+   
+}
+
+.nav{
+    background-color: black;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.nav a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover{
+   
+    opacity: 0.7;
+}
+
+.fa{
+    text-align: right;
+}
+
+.link{
+    text-decoration: none;
+    color: turquoise;
+}
+
+.link:hover{
+    background-color: black;
+}

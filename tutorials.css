@@ -1,0 +1,44 @@
+body{
+    background-image: url("./greybr.jpg");
+    font-family: fantasy;
+    color: white;
+}
+
+p{
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.nav{
+    background-color: black;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.nav a{
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 35px;
+}
+
+.nav a:hover{
+   
+    opacity: 0.7;
+}
+
+.fa{
+    text-align: right;
+}
+
+li{
+    font-size: 30px;
+    padding-top: 10px;
+}
