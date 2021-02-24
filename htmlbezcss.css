@@ -2,14 +2,12 @@ body{
     background-image: url("./greybr.jpg");
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 p{
     font-size: 40px;
     text-align: center;
-}
-
-a{
-   
 }
 
 .nav{
@@ -43,4 +41,43 @@ a{
 
 .link:hover{
     background-color: black;
+}
+
+
+.nazad a{
+    text-decoration: none;
+    color: white;
+}
+
+.nazad{
+    background-color: black;
+    border: none;
+    margin: 20px;
+    font-size: 40px;
+    position:absolute;
+    bottom:0;
+}
+
+.nazad:hover{
+    opacity: 0.7;
+}
+
+.naprijed a{
+    text-decoration: none;
+    color: white;
+}
+.naprijed{
+    background-color: black;
+    border: none;
+    margin: 20px;
+    font-size: 40px;
+    float: right;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 85%;
+}
+
+
+.naprijed:hover{
+    opacity: 0.7;
 }
